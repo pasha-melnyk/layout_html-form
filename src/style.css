@@ -1,21 +1,11 @@
-h1 {
-  display: none;
-}
-
 .form__block {
   margin-bottom: 20px;
 }
 
 .form__field {
-  display: block;
   margin-bottom: 10px;
 }
 
-fieldset .form__field:last-of-type {
+.form__block .form__field:last-child {
   margin-bottom: 0;
-}
-
-.radio {
-  display: inline-block;
-  margin-bottom: 10px;
 }
